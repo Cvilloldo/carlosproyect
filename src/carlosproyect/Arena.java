@@ -21,7 +21,7 @@ public class Arena {
 	public static void main(String[] args) {
 
 		Guerrero guer1 = new Guerrero();
-		System.out.println("Nivel de vida de Guerrero: "+guer1.getVida());
+		System.out.println("VIDA DEL GUERRERO: "+guer1.getVida());
 		//System.out.println("Lucha del guerrero: "+guer1.movimientoLucha());
 	
 		Mago mag1 = new Mago();
@@ -39,7 +39,7 @@ public class Arena {
 		Iterator<Integer> iteInt = listaAcuGolpes.iterator();
 		
 		
-		System.out.println("Daño acumulado por valor: "+danoValor);
+		System.out.println("DaÃ±o acumulado por valor: "+danoValor);
 		while (iteInt.hasNext()) {
 			System.out.println(iteInt.next()+ " ");
 		}
